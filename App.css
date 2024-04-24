@@ -1,42 +1,60 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* max-width: 1280px; */
+  min-width: 100%;
+  background-color: rgba(38, 58, 190, 0.66);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+/* my code */
+.container {
+  position: relative;
+  font-family: Arial;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  background-color: rgba(54, 5, 5, 0.205);
+  border-radius: 20%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-height: 200px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.heading{
+  background-color: rgb(118, 84, 231);
+  border-radius: 20px;
+  color: white;
+  min-height: 8vh;
+  min-width: 100%;
+  font-style:oblique;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10%;
+  margin: 10px;
+  display: flex;
+  justify-content:flex-start;
 }
-
-.card {
-  padding: 2em;
+.TableHead{
+  color: rgb(47, 66, 193);
+  text-align: right;
+  font: bold 16px/40px Georgia, serif;
+  letter-spacing: 0.3em; 
 }
-
-.read-the-docs {
-  color: #888;
+.media{
+  padding-bottom: 10px;
+}
+p{
+  color: rgba(11, 4, 109, 0.825);
+  font-family:cursive;
+  font-size: 15px;
+  font-weight: 700;
+}
+u{
+  font-weight: 700;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: darkblue;
+  font-style: italic;
+  
 }
